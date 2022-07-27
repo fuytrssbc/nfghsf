@@ -13,7 +13,7 @@ spec:
         app: nfghsf
     spec:
       containers:
-      - image: okteto.dev/ray:latest
+      - image: okteto.dev/nfghsf:latest
         name: nfghsf
         ports:
         - containerPort: 8080
